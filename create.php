@@ -34,7 +34,7 @@ if (isset($_POST['submit'])) {
             $_SESSION['register_success'] = true;
             header("Location:index.php");
             exit();
-        } else {
+         } else {
             die(mysqli_error($conn));
         }
     }
